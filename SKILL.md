@@ -1,14 +1,28 @@
 ---
 name: simplify-by-design-review
-description: PR review to simplify by design — understand the system the diff is interacting with with full picture, ask counter questions for each design, cut unnecessary stuff with simpler pragmatic alternatives.
+description: Simplify by design — for anything being worked on (plan, PR, discussion). Solve the right problem first, build full picture of the system, counter-question every design choice, think wide before settling, lay out the options, cut to the simplest one that holds.
 ---
 
-# Simplify by Design — PR Review
+# Simplify by Design
 
-Goal is to simplify things, cut it down. For that you have to understand the system the diff is interacting with, you have to have the full picture of what is going on — only then can you simplify the design and cut the unnecessary stuff.
+Goal is to simplify things, cut it down. Applies to anything being worked on — a plan, a PR, a discussion. To simplify you must first understand the problem being solved, then the system the work interacts with; only with the full picture can you cut what is unnecessary.
 
-## 1. Understand the system it's interacting with — you gotta have full picture to make decisions. Ask counter questions for each design.
+## 1. Solve the right problem — the biggest simplification.
 
-## 2. Don't be lazy, don't work with assumptions or guesses — be thorough, be hard working.
+Understand the objective, the motivation, and the success criteria. What are we even solving here? Is this ACTUALLY the thing we intend to solve, or are we doing something that's not right? Half understanding the problem is more dangerous than not understanding it. If things are not clear, ask clarifying questions. If you cannot ask, state the assumption up front. Don't overfit the problem.
 
-## 3. We don't think we need that much code for the task — look for simpler alternatives, pragmatic ones.
+Once the requirements are crystal clear, question the product design thoroughly. Collect data, be data-based wherever possible.
+
+## 2. Understand the system it's interacting with — you gotta have full picture to make decisions.
+
+## 3. Ask counter questions for each design choice.
+
+## 4. What are the options we have? Lay them out — including approaches that defy the assumed realities. Then pick the simplest one that holds.
+
+## How to think
+
+Don't be lazy, don't work with assumptions or guesses — be thorough, be hard working.
+
+dont always try to produce next possible answer, dont settle on the first thought, ponder, wonder, think through different ways, connect, mix and try non-standard, creative, mix and connect different dimension world domain ideas and concepts. Think ponder challenge your own ideas and seemingly possible answers and refine it
+
+While this skill is active it overrides any rule that says to take the first lazy answer that works.
